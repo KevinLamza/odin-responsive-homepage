@@ -52,6 +52,12 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+header {
+  height: 500px;
+  background-color: lightblue;
+  transform: skewY(-11deg);
+}
+
 main {
   width: 1400px;
   margin: auto;
@@ -106,11 +112,7 @@ h2 {
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
   margin-top: 100px;
-  /* justify-items: center; */
   background-color: pink;
   padding: 48px;
 }
@@ -134,4 +136,13 @@ footer {
 
 .contact p {
   font-size: 24px;
+}
+
+.footerGrid {
+  width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 50px;
 }
