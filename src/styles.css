@@ -52,6 +52,21 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+main {
+  width: 1400px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 400px) );
+  gap: 50px;
+}
+
 .card {
   width: 400px;
   box-shadow: 5px 5px 5px lightgray;
@@ -87,4 +102,36 @@ h2 {
 
 .card p {
   padding: 20px;
+  padding-top: 10px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 100px;
+  /* justify-items: center; */
+  background-color: pink;
+  padding: 48px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  justify-self: center;
+}
+
+.contactInfo p {
+  display: inline;
+}
+
+.iconsFooter img {
+  display: inline;
+  margin: 0px 0.125em;
+  height: 48px;
+}
+
+.contact p {
+  font-size: 24px;
 }
