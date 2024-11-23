@@ -108,7 +108,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .inline-img-header {
   display: inline;
-  margin: 0px 0.125em;
+  margin: 0px 0.25em;
   height: 36px;
   /* border-style: solid; */
 }
@@ -147,7 +147,7 @@ h1 {
 
 .inline-img {
   display: inline;
-  margin: 0px 0.125em;
+  margin: 0px 0.25em;
   height: 24px;
   /* border-style: solid; */
 }
@@ -169,7 +169,7 @@ h2 {
 footer {
   margin-top: 100px;
   background-color: pink;
-  padding: 48px;
+  padding: 48px 0px;
 }
 
 .contact {
@@ -185,7 +185,7 @@ footer {
 
 .iconsFooter img {
   display: inline;
-  margin: 0px 0.125em;
+  margin: 0px 0.5em;
   height: 48px;
 }
 
@@ -200,4 +200,10 @@ footer {
   grid-template-columns: 1fr 600px;
   grid-template-rows: 1fr;
   gap: 50px;
+}
+
+@media (max-width: 1000px) {
+  .cardGrid {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px) );
+  }
 }

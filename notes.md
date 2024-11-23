@@ -16,3 +16,16 @@ HEADER AREA:
 FOOTER AREA:
 - zwei spalten oder zwei zeilen
 - artdirected photo
+
+
+
+Updates:
+- media queries für tablet 500 - 1000
+  - main grid soll die columns anpassen
+  - evtl auch die bilder größe ändenr
+  - footer soll das bild croppen und kleiner machen bis maximal 500 breite
+  - header ???
+- media queries für phone < 500
+  - alles untereinander
+- schnelleres laden: bilder anpassen
+- accessibility
