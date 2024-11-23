@@ -51,3 +51,40 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+.card {
+  width: 400px;
+  box-shadow: 5px 5px 5px lightgray;
+}
+
+.title {
+  display:flex;
+  justify-content: space-between;
+}
+
+.icons {
+  /* border-style: solid; */
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.inline-img {
+  display: inline;
+  margin: 0px 0.125em;
+  height: 24px;
+  /* border-style: solid; */
+}
+
+h2 {
+  display: inline;
+  padding-left: 20px;
+}
+
+.cardImage {
+  margin-bottom: 10px;
+}
+
+.card p {
+  padding: 20px;
+}
